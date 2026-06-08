@@ -10,7 +10,7 @@ const DESCRIPTION =
 const EMAIL = "kelley@inspirationnationproductions.com";
 const SITE = "https://www.inspirationnationproductions.com";
 const ROSTER = "https://staging.inspirationnationproductions.com/#section-client-roster";
-const VIP_URL = "https://www.inspirationnationproductions.com/#vip-mentorship";
+const VIP_URL = "https://www.inspirationnationproductions.com/consulting";
 const EXT = { target: "_blank" as const, rel: "noopener noreferrer" };
 
 const FAQS: Array<{ q: string; a: string }> = [
@@ -469,20 +469,6 @@ function BookingPage() {
             </div>
           </div>
 
-          <figure className="relative mt-12">
-            <div className="absolute -inset-2 rounded-xl bg-gradient-to-br from-gold/30 to-transparent blur-3xl" aria-hidden />
-            <img
-              src={jamesKelleyMalibuPhoto.url}
-              alt="Kelley Kreinbrink with James Van Praagh on the rocks above the Pacific in Malibu, California"
-              width={2035}
-              height={1205}
-              loading="lazy"
-              className="relative w-full h-auto rounded-xl border border-gold/40 shadow-[0_40px_100px_-30px_oklch(0.16_0.04_290/0.8)]"
-            />
-            <figcaption className="mt-3 text-center font-serif italic text-sm text-parchment/70">
-              Kelley with James Van Praagh — Malibu, California. Over 25 years of friendship, partnership, and direct representation.
-            </figcaption>
-          </figure>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <MailButton>📧 Email Kelley Directly</MailButton>
@@ -565,6 +551,25 @@ function BookingPage() {
           </div>
         </div>
       </section>
+
+      {/* MALIBU PHOTO — between Book James & Book Lisa */}
+      <section className="container-prose py-12">
+        <figure className="relative max-w-5xl mx-auto">
+          <div className="absolute -inset-2 rounded-xl bg-gradient-to-br from-gold/30 to-transparent blur-3xl" aria-hidden />
+          <img
+            src={jamesKelleyMalibuPhoto.url}
+            alt="Kelley Kreinbrink with James Van Praagh on the rocks above the Pacific in Malibu, California"
+            width={2035}
+            height={1205}
+            loading="lazy"
+            className="relative w-full h-auto rounded-xl border border-gold/40 shadow-[0_40px_100px_-30px_oklch(0.16_0.04_290/0.8)]"
+          />
+          <figcaption className="mt-4 text-center font-serif italic text-sm text-muted-foreground">
+            Kelley Kreinbrink with James Van Praagh — Malibu, California. Over 25 years of friendship, partnership, and direct representation.
+          </figcaption>
+        </figure>
+      </section>
+
 
       {/* BOOK LISA */}
       <section className="container-prose py-12">
