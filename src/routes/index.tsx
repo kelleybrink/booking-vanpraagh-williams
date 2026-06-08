@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import jamesKelleyPhoto from "@/assets/james-kelley-theater.png.asset.json";
 
 const TITLE =
   "Book James Van Praagh & Lisa Williams | Celebrity Psychic Medium Booking Agent";
@@ -6,6 +7,9 @@ const DESCRIPTION =
   "Hire James Van Praagh or Lisa Williams for your event, podcast, keynote, or retreat. Kelley Kreinbrink of Inspiration Nation Productions is their direct booking agent.";
 const EMAIL = "kelley@inspirationnationproductions.com";
 const SITE = "https://www.inspirationnationproductions.com";
+const ROSTER = "https://staging.inspirationnationproductions.com/#section-client-roster";
+const VIP_URL = "https://www.inspirationnationproductions.com/#vip-mentorship";
+const EXT = { target: "_blank" as const, rel: "noopener noreferrer" };
 
 const FAQS: Array<{ q: string; a: string }> = [
   {
@@ -229,6 +233,7 @@ function BookingPage() {
             <MailButton>Email Kelley to Book</MailButton>
             <a
               href={SITE}
+              {...EXT}
               className="font-display uppercase tracking-[0.18em] text-sm text-gold-soft hover:text-gold underline-offset-8 hover:underline"
             >
               Visit the Website →
@@ -392,7 +397,7 @@ function BookingPage() {
 
       {/* KELLEY — DIRECT CONNECTION */}
       <section className="container-prose py-20">
-        <div className="section-box-dark max-w-5xl mx-auto">
+        <div className="section-box-dark max-w-6xl mx-auto">
           <div className="text-center">
             <p className="eyebrow">✦ Your Direct Connection ✦</p>
             <h2 className="mt-4 font-display text-4xl md:text-6xl uppercase text-gold">
@@ -403,29 +408,59 @@ function BookingPage() {
             </p>
             <Ornament className="mt-6" />
           </div>
-          <div className="mt-10 grid md:grid-cols-2 gap-8 font-serif text-parchment/90 leading-relaxed">
-            <p>
-              <strong className="text-gold">Kelley Kreinbrink</strong> is the top
-              spiritual talent agent and booking agent who has built one of the only
-              boutique spiritual booking agencies in the industry — she represents{" "}
-              <strong className="text-gold">#1 New York Times Bestselling
-              Authors</strong> and world-renowned psychic mediums{" "}
-              <strong className="text-gold">James Van Praagh</strong> and{" "}
-              <strong className="text-gold">Lisa Williams</strong>.
-            </p>
-            <p>
-              As the founder of Inspiration Nation Productions, Kelley has stood on
-              stages with James Van Praagh and Lisa Williams. She doesn't just list
-              talent — she <em>knows</em> it, represents it, and advocates for it.
-              When you book with Kelley, you're working with an agent who has a
-              genuine relationship with the talent and a deep commitment to making
-              your event exceptional.
-            </p>
+
+          <div className="mt-10 grid md:grid-cols-[5fr_6fr] gap-10 items-center">
+            <figure className="relative">
+              <div className="absolute -inset-2 rounded-xl bg-gradient-to-br from-gold/40 to-transparent blur-2xl" aria-hidden />
+              <img
+                src={jamesKelleyPhoto.url}
+                alt="Booking agent Kelley Kreinbrink with psychic medium James Van Praagh at a theater"
+                width={800}
+                height={600}
+                loading="lazy"
+                className="relative rounded-xl border border-gold/40 shadow-[0_30px_80px_-30px_oklch(0.16_0.04_290/0.8)] w-full h-auto"
+              />
+              <figcaption className="mt-3 text-center font-serif italic text-sm text-parchment/70">
+                Kelley Kreinbrink with James Van Praagh — backstage at a sold-out theater event.
+              </figcaption>
+            </figure>
+
+            <div className="space-y-5 font-serif text-parchment/90 leading-relaxed">
+              <p>
+                <strong className="text-gold">Kelley Kreinbrink</strong> is the top
+                spiritual talent agent and booking agent who has built one of the
+                only boutique spiritual booking agencies in the industry — she
+                represents{" "}
+                <strong className="text-gold">#1 New York Times Bestselling
+                Authors</strong> and world-renowned psychic mediums{" "}
+                <strong className="text-gold">James Van Praagh</strong> and{" "}
+                <strong className="text-gold">Lisa Williams</strong>.
+              </p>
+              <p>
+                As the founder of Inspiration Nation Productions, Kelley has stood
+                on stages with James and Lisa. She doesn't just list talent — she{" "}
+                <em>knows</em> it, represents it, and advocates for it. When you
+                book with Kelley, you're working with an agent who has a genuine
+                relationship with the talent and a deep commitment to making your
+                event exceptional.
+              </p>
+              <p>
+                <a
+                  href={ROSTER}
+                  {...EXT}
+                  className="text-gold underline-offset-4 hover:underline"
+                >
+                  View her full roster of elite spiritual clients →
+                </a>
+              </p>
+            </div>
           </div>
+
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <MailButton>📧 Email Kelley Directly</MailButton>
             <a
               href={SITE}
+              {...EXT}
               className="font-display uppercase tracking-[0.18em] text-sm text-gold hover:text-gold-soft underline-offset-8 hover:underline"
             >
               inspirationnationproductions.com →
@@ -433,6 +468,7 @@ function BookingPage() {
           </div>
         </div>
       </section>
+
 
       {/* STEP BY STEP */}
       <section className="container-prose py-12">
@@ -589,6 +625,7 @@ function BookingPage() {
             <MailButton>📧 Email Kelley to Book</MailButton>
             <a
               href={SITE}
+              {...EXT}
               className="font-display uppercase tracking-[0.18em] text-sm text-gold hover:text-gold-soft underline-offset-8 hover:underline"
             >
               Visit My Website →
@@ -638,7 +675,8 @@ function BookingPage() {
               </ul>
               <div className="mt-8">
                 <a
-                  href={SITE}
+                  href={VIP_URL}
+                  {...EXT}
                   className="inline-flex items-center gap-2 font-display uppercase tracking-[0.18em] text-sm text-primary hover:text-gold"
                 >
                   Explore the VIP Mentorship Program →
@@ -724,7 +762,7 @@ function BookingPage() {
               {EMAIL}
             </a>{" "}
             ·{" "}
-            <a href={SITE} className="text-gold hover:underline">
+            <a href={SITE} {...EXT} className="text-gold hover:underline">
               inspirationnationproductions.com
             </a>
           </p>
