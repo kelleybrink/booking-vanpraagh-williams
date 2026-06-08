@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import jamesKelleyPhoto from "@/assets/james-kelley-theater.png.asset.json";
 
 const TITLE =
   "Book James Van Praagh & Lisa Williams | Celebrity Psychic Medium Booking Agent";
@@ -6,6 +7,9 @@ const DESCRIPTION =
   "Hire James Van Praagh or Lisa Williams for your event, podcast, keynote, or retreat. Kelley Kreinbrink of Inspiration Nation Productions is their direct booking agent.";
 const EMAIL = "kelley@inspirationnationproductions.com";
 const SITE = "https://www.inspirationnationproductions.com";
+const ROSTER = "https://staging.inspirationnationproductions.com/#section-client-roster";
+const VIP_URL = "https://www.inspirationnationproductions.com/#vip-mentorship";
+const EXT = { target: "_blank" as const, rel: "noopener noreferrer" };
 
 const FAQS: Array<{ q: string; a: string }> = [
   {
