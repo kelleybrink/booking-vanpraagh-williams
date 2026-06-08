@@ -762,7 +762,7 @@ function BookingPage() {
               {EMAIL}
             </a>{" "}
             ·{" "}
-            <a href={SITE} className="text-gold hover:underline">
+            <a href={SITE} {...EXT} className="text-gold hover:underline">
               inspirationnationproductions.com
             </a>
           </p>
