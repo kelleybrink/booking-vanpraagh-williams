@@ -469,6 +469,21 @@ function BookingPage() {
             </div>
           </div>
 
+          <figure className="relative mt-12">
+            <div className="absolute -inset-2 rounded-xl bg-gradient-to-br from-gold/30 to-transparent blur-3xl" aria-hidden />
+            <img
+              src={jamesKelleyMalibuPhoto.url}
+              alt="Kelley Kreinbrink with James Van Praagh on the rocks above the Pacific in Malibu, California"
+              width={2035}
+              height={1205}
+              loading="lazy"
+              className="relative w-full h-auto rounded-xl border border-gold/40 shadow-[0_40px_100px_-30px_oklch(0.16_0.04_290/0.8)]"
+            />
+            <figcaption className="mt-3 text-center font-serif italic text-sm text-parchment/70">
+              Kelley with James Van Praagh — Malibu, California. Over 25 years of friendship, partnership, and direct representation.
+            </figcaption>
+          </figure>
+
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <MailButton>📧 Email Kelley Directly</MailButton>
             <a
@@ -652,51 +667,82 @@ function BookingPage() {
       </section>
 
       {/* VIP MENTORSHIP */}
-      <section className="container-prose py-12">
-        <div className="section-box max-w-5xl mx-auto bg-gradient-to-br from-card via-parchment to-secondary/40">
-          <div className="grid md:grid-cols-[1fr_2fr] gap-10">
-            <div>
-              <p className="eyebrow">For Spiritual Entrepreneurs</p>
-              <h2 className="mt-3 font-display text-3xl md:text-5xl uppercase text-primary">
-                Step Into Your Authority
+      <section id="vip-mentorship" className="container-prose py-16">
+        <div className="section-box-dark max-w-6xl mx-auto relative overflow-hidden">
+          <div
+            aria-hidden
+            className="absolute inset-0 opacity-30 pointer-events-none"
+            style={{
+              backgroundImage:
+                "radial-gradient(circle at 15% 20%, oklch(0.74 0.13 85 / 0.5), transparent 45%), radial-gradient(circle at 85% 80%, oklch(0.86 0.08 88 / 0.35), transparent 50%)",
+            }}
+          />
+          <div className="relative">
+            <div className="text-center">
+              <p className="eyebrow">✦ For Mediums · Healers · Psychics · Coaches · Spiritual Entrepreneurs ✦</p>
+              <h2 className="mt-5 font-display text-4xl md:text-6xl uppercase text-gold leading-[0.95]">
+                Get Booked. Get Paid.
+                <span className="block text-parchment">Get Known.</span>
               </h2>
-              <div className="gold-rule my-6" />
-              <p className="font-serif italic text-muted-foreground">
-                Kelley's VIP Mentorship Program — the insider playbook used with
-                A-list spiritual talent, applied to you.
+              <p className="mt-5 font-serif italic text-lg md:text-xl text-parchment/90 max-w-3xl mx-auto">
+                The VIP Mentorship Program — the exact insider playbook Kelley uses with
+                A-list celebrity mediums, taught directly to you.
               </p>
+              <Ornament className="mt-6" />
             </div>
-            <div>
-              <p className="font-serif text-foreground/85 leading-relaxed">
-                If you're an intuitive, psychic, medium, healer, or spiritual teacher
-                who is done playing small — this was built for you. Receive the same
-                insider knowledge, connections, and strategy used with A-list
-                celebrity clients, applied directly to you and your brand.
-              </p>
-              <ul className="mt-6 space-y-3 font-serif text-foreground/85">
-                {[
-                  "Secure premium bookings on podcasts, spiritual expos, and live events using Kelley's proven pitch formula.",
-                  "Attract national press and media coverage to amplify your message and authority.",
-                  "Gain the industry secrets to scale and leverage your spiritual career breakthrough.",
-                  "Personalized 1-on-1 video sessions with Kelley to fast-track your spiritual business.",
-                ].map((i) => (
-                  <li key={i} className="flex gap-3">
-                    <span className="text-gold font-display mt-1">✦</span>
-                    <span>{i}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-8">
-                <a
-                  href={VIP_URL}
-                  {...EXT}
-                  className="inline-flex items-center gap-2 font-display uppercase tracking-[0.18em] text-sm text-primary hover:text-gold"
+
+            <div className="mt-10 grid md:grid-cols-3 gap-5">
+              {[
+                {
+                  t: "Land Premium Bookings",
+                  d: "Use Kelley's proven pitch formula to book podcasts, spiritual expos, retreats, and live events at rates that reflect your worth.",
+                },
+                {
+                  t: "Attract National Press",
+                  d: "Build the kind of media presence that turns intuitives, healers, and mediums into recognized authorities.",
+                },
+                {
+                  t: "Scale Your Spiritual Business",
+                  d: "Industry secrets, contracts, contacts, and the strategy that took A-list talent from gifted to globally known.",
+                },
+                {
+                  t: "1-on-1 With Kelley",
+                  d: "Private video sessions with the agent behind James Van Praagh and Lisa Williams — applied to YOUR brand.",
+                },
+                {
+                  t: "Insider Network Access",
+                  d: "The producers, podcasters, and event bookers Kelley already knows — opened up for you.",
+                },
+                {
+                  t: "Built For Practitioners",
+                  d: "Mediums, psychics, energy healers, intuitives, spiritual teachers, and coaches who are done playing small.",
+                },
+              ].map((c) => (
+                <div
+                  key={c.t}
+                  className="rounded-xl border border-gold/30 bg-[oklch(0.18_0.05_290/0.6)] p-6 backdrop-blur"
                 >
-                  Explore the VIP Mentorship Program →
-                </a>
-              </div>
-              <p className="mt-4 font-serif italic text-muted-foreground">
-                This is your sign. Let's get to work.
+                  <span className="font-display text-gold text-xl">✦</span>
+                  <h3 className="mt-2 font-display uppercase text-lg text-parchment leading-snug">
+                    {c.t}
+                  </h3>
+                  <p className="mt-3 font-serif text-sm text-parchment/80 leading-relaxed">
+                    {c.d}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-10 text-center">
+              <a
+                href={VIP_URL}
+                {...EXT}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 font-display uppercase tracking-[0.18em] text-sm bg-gold text-ink hover:bg-gold-soft rounded-md shadow-[0_20px_50px_-15px_oklch(0.74_0.13_85/0.6)] transition-all"
+              >
+                Explore the VIP Mentorship →
+              </a>
+              <p className="mt-5 font-serif italic text-parchment/80">
+                If you've been waiting for a sign — this is it. Let's get to work.
               </p>
             </div>
           </div>
