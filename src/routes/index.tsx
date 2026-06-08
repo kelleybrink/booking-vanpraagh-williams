@@ -675,7 +675,8 @@ function BookingPage() {
               </ul>
               <div className="mt-8">
                 <a
-                  href={SITE}
+                  href={VIP_URL}
+                  {...EXT}
                   className="inline-flex items-center gap-2 font-display uppercase tracking-[0.18em] text-sm text-primary hover:text-gold"
                 >
                   Explore the VIP Mentorship Program →
