@@ -233,6 +233,7 @@ function BookingPage() {
             <MailButton>Email Kelley to Book</MailButton>
             <a
               href={SITE}
+              {...EXT}
               className="font-display uppercase tracking-[0.18em] text-sm text-gold-soft hover:text-gold underline-offset-8 hover:underline"
             >
               Visit the Website →
