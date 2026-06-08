@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import jamesKelleyPhoto from "@/assets/james-kelley-theater.png.asset.json";
+import lisaWilliamsPhoto from "@/assets/lisa-williams.png.asset.json";
+import jamesKelleyMalibuPhoto from "@/assets/james-kelley-malibu.png.asset.json";
 
 const TITLE =
   "Book James Van Praagh & Lisa Williams | Celebrity Psychic Medium Booking Agent";
@@ -336,6 +338,17 @@ function BookingPage() {
         <article className="section-box">
           <div className="grid md:grid-cols-[1fr_2fr] gap-10 items-start">
             <div>
+              <figure className="relative mb-6">
+                <div className="absolute -inset-2 rounded-xl bg-gradient-to-br from-gold/40 to-transparent blur-2xl" aria-hidden />
+                <img
+                  src={lisaWilliamsPhoto.url}
+                  alt="Lisa Williams — world-renowned psychic medium and TV personality"
+                  width={800}
+                  height={800}
+                  loading="lazy"
+                  className="relative rounded-xl border border-gold/40 shadow-[0_30px_80px_-30px_oklch(0.16_0.04_290/0.5)] w-full h-auto object-cover"
+                />
+              </figure>
               <Chip>Featured Talent</Chip>
               <h3 className="mt-4 font-display text-4xl md:text-5xl uppercase text-primary">
                 Lisa Williams
