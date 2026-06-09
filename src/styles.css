@@ -58,9 +58,9 @@
   --muted: oklch(0.94 0.008 285);
   --muted-foreground: oklch(0.45 0.02 285);
 
-  --accent: oklch(0.74 0.13 85);                 /* burnished gold */
-  --accent-foreground: oklch(0.18 0.04 290);
-  --gold: oklch(0.74 0.13 85);
+  --accent: oklch(0.55 0.14 70);                 /* burnished bronze-gold (AA on white) */
+  --accent-foreground: oklch(0.98 0.005 80);
+  --gold: oklch(0.55 0.14 70);
   --gold-soft: oklch(0.86 0.08 88);
 
   --card: oklch(1 0 0);
