@@ -462,7 +462,7 @@ function BookingPage() {
               <p>
                 As the founder of Inspiration Nation Productions, she doesn't just
                 list talent — she knows it, represents it, and advocates for it.
-                When you book with Kelley, you're working with an agent who has a
+                When you book with Kelley, you're working with an agent who has
                 nurtured relationships with the talent, venues, buyers, and event
                 producers. 
               </p>
@@ -698,7 +698,7 @@ function BookingPage() {
                 Get Booked. Get Paid.
                 <span className="block text-parchment">Get Known.</span>
               </h2>
-              <p className="mt-5 font-serif italic text-lg md:text-xl text-parchment/90 max-w-3xl mx-auto">
+              <p className="mt-5 font-serif italic text-lg md:text-xl text-parchment/90 max-w-3xl mx-auto font-bold">
                 The VIP Mentorship Program — the exact insider playbook Kelley uses with
                 A-list celebrity mediums, taught directly to you.
               </p>
