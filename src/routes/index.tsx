@@ -231,6 +231,8 @@ function BookingPage() {
           <p className="mt-10 mx-auto max-w-2xl font-serif text-lg md:text-xl text-parchment/90 leading-relaxed">
             Your direct line to two of the world's most celebrated psychic mediums —
             no forms, no directories, no dead ends.
+            <br /><br />
+            The Official Booking Agent to James Van Praagh & Lisa Williams — Kelley Kreinbrink, Inspiration Nation Productions
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <MailButton>Email Kelley to Book</MailButton>
