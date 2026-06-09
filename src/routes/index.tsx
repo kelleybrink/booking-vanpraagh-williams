@@ -510,13 +510,6 @@ function BookingPage() {
           </p>
         </div>
 
-        <div className="section-box max-w-4xl mx-auto bg-gradient-to-br from-card to-secondary/40">
-          <blockquote className="font-serif italic text-2xl md:text-3xl text-center text-primary leading-snug">
-            "Audiences don't just applaud.
-            <span className="block text-gold">They laugh, cry, heal, and leave changed forever."</span>
-          </blockquote>
-        </div>
-
         <div className="grid md:grid-cols-3 gap-6 mt-10 max-w-5xl mx-auto">
           {[
             { n: "01", t: "Your Information", d: "Name, organization, and best contact details." },
@@ -531,17 +524,24 @@ function BookingPage() {
             </div>
           ))}
         </div>
+
+        <div className="section-box max-w-4xl mx-auto bg-gradient-to-br from-card to-secondary/40 mt-10">
+          <blockquote className="font-serif italic text-2xl md:text-3xl text-center text-primary leading-snug">
+            "Audiences don't just applaud.
+            <span className="block text-gold">They laugh, cry, heal, and leave changed forever."</span>
+          </blockquote>
+        </div>
       </section>
 
       {/* BOOK JAMES */}
       <section className="container-prose py-12">
-        <div className="section-box max-w-5xl mx-auto">
+        <div className="section-box-dark max-w-5xl mx-auto">
           <p className="eyebrow">✦ Book James Van Praagh ✦</p>
-          <h2 className="mt-4 font-display text-3xl md:text-5xl uppercase text-primary">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl uppercase text-gold">
             James Van Praagh Is Available For:
           </h2>
           <div className="gold-rule my-6" />
-          <ul className="grid md:grid-cols-2 gap-4 font-serif text-foreground/85">
+          <ul className="grid md:grid-cols-2 gap-4 font-serif text-parchment/90">
             {[
               "Live Events — theaters, convention centers, performing arts venues, arenas, casinos, cruises, corporate",
               "Podcast Interviews — in-person and virtual",
