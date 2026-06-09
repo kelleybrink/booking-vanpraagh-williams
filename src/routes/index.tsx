@@ -299,7 +299,7 @@ function BookingPage() {
               <p className="mt-1 font-serif text-foreground">Kelley Kreinbrink</p>
               <a
                 href={`mailto:${EMAIL}`}
-                className="mt-2 inline-block text-primary hover:text-gold underline-offset-4 hover:underline break-all"
+                className="mt-2 inline-block text-primary hover:text-gold text-sm font-serif underline-offset-4 hover:underline break-all"
               >
                 {EMAIL}
               </a>
@@ -373,7 +373,7 @@ function BookingPage() {
               <p className="mt-1 font-serif text-foreground">Kelley Kreinbrink</p>
               <a
                 href={`mailto:${EMAIL}`}
-                className="mt-2 inline-block text-primary hover:text-gold underline-offset-4 hover:underline break-all"
+                className="mt-2 inline-block text-primary hover:text-gold text-sm font-serif underline-offset-4 hover:underline break-all"
               >
                 {EMAIL}
               </a>
@@ -640,7 +640,7 @@ function BookingPage() {
               negotiate fees.
             </strong>
           </p>
-          <p className="mt-4 font-serif text-lg leading-relaxed text-primary">
+          <p className="mt-4 font-serif text-lg leading-relaxed text-primary text-sm font-serif">
             <strong>
               Inspiration Nation Productions is the active, direct-access spiritual
               booking agency that represents James Van Praagh and Lisa Williams.
