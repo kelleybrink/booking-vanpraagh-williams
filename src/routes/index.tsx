@@ -221,7 +221,7 @@ function BookingPage() {
             How to Hire
             <span className="block text-gold">James Van Praagh</span>
             <span className="block text-sm md:text-base font-serif italic tracking-normal text-gold-soft my-3">
-              or
+              ​
             </span>
             <span className="block text-gold">Lisa Williams</span>
             <span className="block mt-4 text-xl md:text-2xl font-serif italic text-parchment normal-case tracking-normal">
@@ -287,7 +287,7 @@ function BookingPage() {
               </figure>
               <Chip>Featured Talent</Chip>
               <h3 className="mt-4 font-display text-4xl md:text-5xl uppercase text-primary">
-                James Van Praagh, Lisa Williams , and Celebrity Psychics  & Master Teachers.
+                ​
               </h3>
               <p className="mt-3 font-serif italic text-muted-foreground">
                 Celebrity Psychic Medium · #1 NYT Bestselling Author · Spiritual Teacher
@@ -299,7 +299,7 @@ function BookingPage() {
               <p className="mt-1 font-serif text-foreground">Kelley Kreinbrink</p>
               <a
                 href={`mailto:${EMAIL}`}
-                className="mt-2 inline-block text-primary hover:text-gold text-sm font-serif underline-offset-4 hover:underline break-all"
+                className="mt-2 inline-block text-primary hover:text-gold text-sm font-sans underline-offset-4 hover:underline break-all"
               >
                 {EMAIL}
               </a>
@@ -373,7 +373,7 @@ function BookingPage() {
               <p className="mt-1 font-serif text-foreground">Kelley Kreinbrink</p>
               <a
                 href={`mailto:${EMAIL}`}
-                className="mt-2 inline-block text-primary hover:text-gold text-sm font-serif underline-offset-4 hover:underline break-all"
+                className="mt-2 inline-block text-primary hover:text-gold text-sm font-sans underline-offset-4 hover:underline break-all"
               >
                 {EMAIL}
               </a>
@@ -503,7 +503,7 @@ function BookingPage() {
           <p className="mt-4 font-serif italic text-muted-foreground max-w-2xl mx-auto">
             For live events, podcasts, workshops, retreats, or media appearances —
             email Kelley directly at{" "}
-            <a href={`mailto:${EMAIL}`} className="text-primary hover:text-gold text-sm font-serif">
+            <a href={`mailto:${EMAIL}`} className="text-primary hover:text-gold text-sm font-sans">
               {EMAIL}
             </a>
             .
@@ -640,7 +640,7 @@ function BookingPage() {
               negotiate fees.
             </strong>
           </p>
-          <p className="mt-4 font-serif text-lg leading-relaxed text-primary text-sm font-serif">
+          <p className="mt-4 font-serif text-lg leading-relaxed text-primary text-sm font-sans">
             <strong>
               Inspiration Nation Productions is the active, direct-access spiritual
               booking agency that represents James Van Praagh and Lisa Williams.
