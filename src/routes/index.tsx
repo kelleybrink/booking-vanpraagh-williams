@@ -5,9 +5,9 @@ import jamesVanPraaghPhoto from "@/assets/james-van-praagh.jpeg.asset.json";
 import jamesKelleyMalibuPhoto from "@/assets/james-kelley-malibu.png.asset.json";
 
 const TITLE =
-  "Book James Van Praagh & Lisa Williams | Celebrity Psychic Medium Booking Agent";
+  "Book James Van Praagh or Lisa Williams | Celebrity Psychic Medium Booking Agent";
 const DESCRIPTION =
-  "Hire James Van Praagh or Lisa Williams for your event, podcast, keynote, or retreat. Kelley Kreinbrink of Inspiration Nation Productions is their direct booking agent.";
+  "Hire James Van Praagh or Lisa Williams for your event, podcast, media appearance, keynote, or retreat. Kelley Kreinbrink of Inspiration Nation Productions is their direct booking agent.";
 const EMAIL = "kelley@inspirationnationproductions.com";
 const SITE = "https://www.inspirationnationproductions.com";
 const ROSTER = "https://staging.inspirationnationproductions.com/#section-client-roster";
@@ -221,11 +221,11 @@ function BookingPage() {
             How to Hire
             <span className="block text-gold">James Van Praagh</span>
             <span className="block text-sm md:text-base font-serif italic tracking-normal text-gold-soft my-3">
-              &amp;
+              or
             </span>
             <span className="block text-gold">Lisa Williams</span>
             <span className="block mt-4 text-xl md:text-2xl font-serif italic text-parchment normal-case tracking-normal">
-              for Your Event, Podcast, Keynote, or Retreat
+              for Your Event, Podcast, Media Appearance, Keynote, or Retreat
             </span>
           </h1>
           <p className="mt-10 mx-auto max-w-2xl font-serif text-lg md:text-xl text-parchment/90 leading-relaxed">
@@ -254,9 +254,7 @@ function BookingPage() {
             <strong className="text-primary">world-class celebrity psychic medium</strong>{" "}
             — you've found it. <strong>Kelley Kreinbrink</strong> of{" "}
             <em>Inspiration Nation Productions</em> is the booking agent who represents
-            and works directly with both{" "}
-            <strong className="text-primary">James Van Praagh</strong> and{" "}
-            <strong className="text-primary">Lisa Williams</strong>.
+            and works directly with James Van Praagh, Lisa Williams , and many more... 
           </p>
         </div>
       </section>
@@ -289,7 +287,7 @@ function BookingPage() {
               </figure>
               <Chip>Featured Talent</Chip>
               <h3 className="mt-4 font-display text-4xl md:text-5xl uppercase text-primary">
-                James Van Praagh
+                James Van Praagh, Lisa Williams , and Celebrity Psychics  & Master Teachers.
               </h3>
               <p className="mt-3 font-serif italic text-muted-foreground">
                 Celebrity Psychic Medium · #1 NYT Bestselling Author · Spiritual Teacher
@@ -301,7 +299,7 @@ function BookingPage() {
               <p className="mt-1 font-serif text-foreground">Kelley Kreinbrink</p>
               <a
                 href={`mailto:${EMAIL}`}
-                className="mt-2 inline-block text-primary hover:text-gold underline-offset-4 hover:underline break-all"
+                className="mt-2 inline-block text-primary hover:text-gold text-sm font-serif underline-offset-4 hover:underline break-all"
               >
                 {EMAIL}
               </a>
@@ -363,7 +361,7 @@ function BookingPage() {
               </figure>
               <Chip>Featured Talent</Chip>
               <h3 className="mt-4 font-display text-4xl md:text-5xl uppercase text-primary">
-                Lisa Williams
+                ​
               </h3>
               <p className="mt-3 font-serif italic text-muted-foreground">
                 World-Renowned Psychic Medium · TV Personality · Bestselling Author
@@ -375,7 +373,7 @@ function BookingPage() {
               <p className="mt-1 font-serif text-foreground">Kelley Kreinbrink</p>
               <a
                 href={`mailto:${EMAIL}`}
-                className="mt-2 inline-block text-primary hover:text-gold underline-offset-4 hover:underline break-all"
+                className="mt-2 inline-block text-primary hover:text-gold text-sm font-serif underline-offset-4 hover:underline break-all"
               >
                 {EMAIL}
               </a>
@@ -462,12 +460,11 @@ function BookingPage() {
                 <strong className="text-gold">Lisa Williams</strong>.
               </p>
               <p>
-                As the founder of Inspiration Nation Productions, Kelley has stood
-                on stages with James and Lisa. She doesn't just list talent — she{" "}
-                <em>knows</em> it, represents it, and advocates for it. When you
-                book with Kelley, you're working with an agent who has a genuine
-                relationship with the talent and a deep commitment to making your
-                event exceptional.
+                As the founder of Inspiration Nation Productions, she doesn't just
+                list talent — she knows it, represents it, and advocates for it.
+                When you book with Kelley, you're working with an agent who has a
+                nurtured relationships with the talent, venues, buyers, and event
+                producers. 
               </p>
               <p>
                 <a
@@ -506,7 +503,7 @@ function BookingPage() {
           <p className="mt-4 font-serif italic text-muted-foreground max-w-2xl mx-auto">
             For live events, podcasts, workshops, retreats, or media appearances —
             email Kelley directly at{" "}
-            <a href={`mailto:${EMAIL}`} className="text-primary hover:text-gold">
+            <a href={`mailto:${EMAIL}`} className="text-primary hover:text-gold text-sm font-serif">
               {EMAIL}
             </a>
             .
@@ -643,7 +640,7 @@ function BookingPage() {
               negotiate fees.
             </strong>
           </p>
-          <p className="mt-4 font-serif text-lg leading-relaxed text-primary">
+          <p className="mt-4 font-serif text-lg leading-relaxed text-primary text-sm font-serif">
             <strong>
               Inspiration Nation Productions is the active, direct-access spiritual
               booking agency that represents James Van Praagh and Lisa Williams.
