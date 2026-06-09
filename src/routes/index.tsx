@@ -49,7 +49,7 @@ const FAQS: Array<{ q: string; a: string }> = [
   },
   {
     q: "Is James Van Praagh available for virtual events?",
-    a: "Yes. James Van Praagh is available for virtual keynotes, online summits, and livestreamed mediumship events. Contact Kelley Kreinbrink at Inspiration Nation Productions to discuss format and technical requirements.",
+    a: "Yes. James Van Praagh is available for virtual keynotes, online summits, and livestreamed mediumship events. Contact Kelley Kreinbrink at kelley@inspirationnationproductions.com to discuss format and technical requirements.",
   },
   {
     q: "What kind of events is Lisa Williams best suited for?",
