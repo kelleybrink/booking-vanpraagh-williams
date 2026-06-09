@@ -53,7 +53,7 @@ const FAQS: Array<{ q: string; a: string }> = [
   },
   {
     q: "What kind of events is Lisa Williams best suited for?",
-    a: "Lisa Williams is ideal for spiritual wellness conferences, grief healing events, corporate intuition and mindfulness programs, podcast interviews, television and media appearances, retreat headlining, and live mediumship demonstrations for audiences of any size.",
+    a: "Lisa Williams is ideal for spiritual wellness conferences, grief healing events, corporate intuition and mindfulness programs, podcast interviews, television and media appearances, retreat headlining, and live mediumship demonstrations for audiences of any size. Contact kelley@inspirationnationproductions.com to discuss your event.",
   },
   {
     q: "How far in advance should I book James Van Praagh or Lisa Williams?",
