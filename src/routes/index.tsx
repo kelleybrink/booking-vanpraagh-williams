@@ -219,8 +219,8 @@ function BookingPage() {
           <Ornament className="mt-6" />
           <h1 className="mt-8 font-display text-5xl md:text-7xl lg:text-8xl uppercase leading-[0.95] tracking-tight">
             HOW TO HIRE
-            <span className="block text-sm md:text-base font-serif italic tracking-normal text-gold-soft my-3">
-              CELEBRITY PSYCHICS, 
+            <span className="block text-sm md:text-base font-sans uppercase tracking-[0.2em] text-gold-soft my-3">
+              CELEBRITY PSYCHICS,
             </span>
             <span className="block text-gold">James Van Praagh</span>
             <span className="block text-gold">or Lisa Williams</span>
@@ -231,7 +231,8 @@ function BookingPage() {
           <p className="mt-10 mx-auto max-w-2xl font-serif text-lg md:text-xl text-parchment/90 leading-relaxed">
             Your direct line to two of the world's most celebrated psychic mediums —
             no forms, no directories, no dead ends.
-            <br /><br />
+          </p>
+          <p className="mt-4 mx-auto max-w-2xl font-serif text-lg md:text-xl text-gold leading-relaxed">
             The Official Booking Agent to James Van Praagh & Lisa Williams — Kelley Kreinbrink, Inspiration Nation Productions
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
