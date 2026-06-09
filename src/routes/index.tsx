@@ -218,12 +218,12 @@ function BookingPage() {
           <p className="eyebrow text-gold">Inspiration Nation Productions</p>
           <Ornament className="mt-6" />
           <h1 className="mt-8 font-display text-5xl md:text-7xl lg:text-8xl uppercase leading-[0.95] tracking-tight">
-            How to Hire
-            <span className="block text-gold">James Van Praagh</span>
+            HOW TO HIRE
             <span className="block text-sm md:text-base font-serif italic tracking-normal text-gold-soft my-3">
-              ​
+              CELEBRITY PSYCHICS, 
             </span>
-            <span className="block text-gold">Lisa Williams</span>
+            <span className="block text-gold">James Van Praagh</span>
+            <span className="block text-gold">or Lisa Williams</span>
             <span className="block mt-4 text-xl md:text-2xl font-serif italic text-parchment normal-case tracking-normal">
               for Your Event, Podcast, Media Appearance, Keynote, or Retreat
             </span>
@@ -254,7 +254,7 @@ function BookingPage() {
             <strong className="text-primary">world-class celebrity psychic medium</strong>{" "}
             — you've found it. <strong>Kelley Kreinbrink</strong> of{" "}
             <em>Inspiration Nation Productions</em> is the booking agent who represents
-            and works directly with James Van Praagh, Lisa Williams , and many more... 
+            and works directly with James Van Praagh, or Lisa Williams , and many more... 
           </p>
         </div>
       </section>
