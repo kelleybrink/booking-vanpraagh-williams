@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import jamesKelleyPhoto from "@/assets/james-kelley-theater.png.asset.json";
 import lisaWilliamsPhoto from "@/assets/lisa-williams.png.asset.json";
+import jamesVanPraaghPhoto from "@/assets/james-van-praagh.jpeg.asset.json";
 import jamesKelleyMalibuPhoto from "@/assets/james-kelley-malibu.png.asset.json";
 
 const TITLE =
