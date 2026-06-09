@@ -276,6 +276,17 @@ function BookingPage() {
         <article className="section-box mb-12">
           <div className="grid md:grid-cols-[1fr_2fr] gap-10 items-start">
             <div>
+              <figure className="relative mb-6">
+                <div className="absolute -inset-2 rounded-xl bg-gradient-to-br from-gold/40 to-transparent blur-2xl" aria-hidden />
+                <img
+                  src={jamesVanPraaghPhoto.url}
+                  alt="James Van Praagh — celebrity psychic medium and #1 New York Times bestselling author"
+                  width={800}
+                  height={1200}
+                  loading="lazy"
+                  className="relative rounded-xl border border-gold/40 shadow-[0_30px_80px_-30px_oklch(0.16_0.04_290/0.5)] w-full h-auto object-cover"
+                />
+              </figure>
               <Chip>Featured Talent</Chip>
               <h3 className="mt-4 font-display text-4xl md:text-5xl uppercase text-primary">
                 James Van Praagh
