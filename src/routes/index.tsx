@@ -33,7 +33,7 @@ const FAQS: Array<{ q: string; a: string }> = [
   },
   {
     q: "How much does it cost to book James Van Praagh?",
-    a: "Fees vary based on event type, location, audience size, and duration. Reach out directly to Inspiration Nation Productions for an accurate, current quote. Kelley works with event producers worldwide and can often find creative arrangements for the right opportunity.",
+    a: "Fees vary based on event type, location, audience size, and duration. Reach out directly to Kelley Kreinbrink at kelley@inspirationnationproductions.com for an accurate, current quote. Kelley works with event producers worldwide and can often find creative arrangements for the right opportunity.",
   },
   {
     q: "How much does it cost to book Lisa Williams?",
