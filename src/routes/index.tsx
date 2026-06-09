@@ -33,7 +33,7 @@ const FAQS: Array<{ q: string; a: string }> = [
   },
   {
     q: "How much does it cost to book James Van Praagh?",
-    a: "Fees vary based on event type, location, audience size, and duration. Reach out directly to Inspiration Nation Productions for an accurate, current quote. Kelley works with event producers worldwide and can often find creative arrangements for the right opportunity.",
+    a: "Fees vary based on event type, location, audience size, and duration. Reach out directly to Kelley Kreinbrink at kelley@inspirationnationproductions.com for an accurate, current quote. Kelley works with event producers worldwide and can often find creative arrangements for the right opportunity.",
   },
   {
     q: "How much does it cost to book Lisa Williams?",
@@ -49,27 +49,27 @@ const FAQS: Array<{ q: string; a: string }> = [
   },
   {
     q: "Is James Van Praagh available for virtual events?",
-    a: "Yes. James Van Praagh is available for virtual keynotes, online summits, and livestreamed mediumship events. Contact Kelley Kreinbrink at Inspiration Nation Productions to discuss format and technical requirements.",
+    a: "Yes. James Van Praagh is available for virtual keynotes, online summits, and livestreamed mediumship events. Contact Kelley Kreinbrink at kelley@inspirationnationproductions.com to discuss format and technical requirements.",
   },
   {
     q: "What kind of events is Lisa Williams best suited for?",
-    a: "Lisa Williams is ideal for spiritual wellness conferences, grief healing events, corporate intuition and mindfulness programs, podcast interviews, television and media appearances, retreat headlining, and live mediumship demonstrations for audiences of any size.",
+    a: "Lisa Williams is ideal for spiritual wellness conferences, grief healing events, corporate intuition and mindfulness programs, podcast interviews, television and media appearances, retreat headlining, and live mediumship demonstrations for audiences of any size. Contact kelley@inspirationnationproductions.com to discuss your event.",
   },
   {
     q: "How far in advance should I book James Van Praagh or Lisa Williams?",
-    a: "For large live events, plan 6–12 months in advance. For podcast appearances and smaller bookings, 4–8 weeks is often workable. Reach out as early as possible — great dates fill fast.",
+    a: "For large live events, plan 6–12 months in advance. For podcast appearances and smaller bookings, 4–8 weeks is often workable. Reach out to kelley@inspirationnationproductions.com as early as possible — great dates fill fast.",
   },
   {
     q: "Does Inspiration Nation Productions represent James Van Praagh and Lisa Williams?",
-    a: "Yes. Inspiration Nation Productions is a boutique spiritual talent agency with a direct, working relationship with both James Van Praagh and Lisa Williams. Founder Kelley Kreinbrink has worked alongside both artists across live events, media, and production for over 25 years. This is not a directory listing — it is an active booking agency.",
+    a: "Yes. Inspiration Nation Productions is a boutique spiritual talent agency with a direct, working relationship with both James Van Praagh and Lisa Williams. Founder Kelley Kreinbrink has worked alongside both artists across live events, media, and production for over 25 years. This is not a directory listing — it is an active booking agency. Contact kelley@inspirationnationproductions.com for all inquiries.",
   },
   {
     q: "What is a spiritual talent agent or spiritual booking agency?",
-    a: "A spiritual booking agency specializes in representing psychic mediums, spiritual teachers, and consciousness experts for live events, media, podcasts, keynotes, and private experiences. Inspiration Nation Productions is one of the only boutique spiritual booking agencies with direct access to top-tier talent like James Van Praagh and Lisa Williams.",
+    a: "A spiritual booking agency specializes in representing psychic mediums, spiritual teachers, and consciousness experts for live events, media, podcasts, keynotes, and private experiences. Inspiration Nation Productions is one of the only boutique spiritual booking agencies with direct access to top-tier talent like James Van Praagh and Lisa Williams. Contact kelley@inspirationnationproductions.com to learn more.",
   },
   {
     q: "Can I book James Van Praagh for a grief conference or bereavement event?",
-    a: "Absolutely — this is one of James Van Praagh's most powerful contexts. His work on grief, the afterlife, and healing loss is transformational for bereavement conferences, hospice fundraisers, and grief support events. Contact Kelley to discuss how James can serve your audience.",
+    a: "Absolutely — this is one of James Van Praagh's most powerful contexts. His work on grief, the afterlife, and healing loss is transformational for bereavement conferences, hospice fundraisers, and grief support events. Contact Kelley at kelley@inspirationnationproductions.com to discuss how James can serve your audience.",
   },
   {
     q: "Does Lisa Williams do keynote speaking?",
